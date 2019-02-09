@@ -7,15 +7,15 @@ var locales = {
 
       var bangalore = function () { // The Paris city's local scope
         var myFriend = 'Lokesh';
-        console.log(myFriend);
+        console.log('bangalore frnd ', myFriend);
       };
 
-      console.log(myFriend);
+      console.log('Karanatak frnd ', myFriend);
       bangalore();
     };
 
 
-    console.log(myFriend);
+    console.log('India frnd', myFriend);
     karnataka();
   }
 };

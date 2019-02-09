@@ -10,7 +10,7 @@ accessiable any where in you code.
 
 Local Scope- Each fuction has its own scope, any variable declared inside the fucntion is accessiable
 to that function scope and its nested function. This is bcoz local scope in javascript is created by
-function (this is also called fucntion scope)
+function (this is also called function scope)
 
 ---------------------------------------------------------------------------------------------------------------
 

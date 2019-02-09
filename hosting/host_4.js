@@ -6,4 +6,16 @@ function myFunction() {
 
 // var carName = "Maruthi";
 
-console.log(carName); //output: 
+console.log(carName); //output:
+
+
+// !----------
+/* var carName;
+
+function myFunction() {
+    carName = "Volvo";
+}
+
+
+
+myFunction(); */

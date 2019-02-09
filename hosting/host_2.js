@@ -4,6 +4,27 @@ function showState() {
     console.log("Ready");
 }
 
-var showState = function () {
+
+
+var showState = () => {
     console.log("Idle");
 };
+
+
+
+
+
+// !------hosting--------
+
+/* function showState() {
+    console.log("Ready");
+}
+
+var showState;
+
+showState(); // output: 
+
+
+showState = function () {
+    console.log("Idle");
+}; */

@@ -3,11 +3,11 @@ var test = "I'm global";
 function testScope() {
     test = "I'm local";
 
-    console.log(test);
+    console.log('op1 ', test);
 }
 
-console.log(test); // output:
+console.log('op2 ', test); // output:
 
 testScope(); // output: 
 
-console.log(test); // output:
+console.log('op3 ', test); // output:
