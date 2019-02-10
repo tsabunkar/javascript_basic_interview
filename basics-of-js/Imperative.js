@@ -21,7 +21,7 @@ const response = [{
 
 ];
 
-
+console.time('tag');
 // IMPERATIVE WAY OF WRITING CODE -> 
 // Imperative -> old school  -> Tell what to do & how to do
 const femaleUsers = [];
@@ -34,3 +34,5 @@ for (let index = 0; index < response.length; index++) {
 
 }
 console.log(femaleUsers);
+
+console.timeEnd('tag');

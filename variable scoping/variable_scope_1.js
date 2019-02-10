@@ -1,11 +1,11 @@
 var locales = {
-  india: function () { // The Europe continent's local scope
+  india: function () { // The India continent's local scope
     var myFriend = 'Kapil';
 
-    var karnataka = function () { // The France country's local scope
+    var karnataka = function () { // The Karnataka country's local scope
       var myFriend = 'Subash';
 
-      var bangalore = function () { // The Paris city's local scope
+      var bangalore = function () { // The bangalore city's local scope
         var myFriend = 'Lokesh';
         console.log('bangalore frnd ', myFriend);
       };

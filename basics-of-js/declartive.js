@@ -21,6 +21,7 @@ const response = [{
 
 ];
 
+console.time('tag');
 
 // DECLARATIVE WAY OF WRITING CODE -> Love (Functional way !!!)
 // Declarative -> Functional -> Tell what to do 
@@ -34,3 +35,6 @@ const femaleUsers = response
     });
 
 console.log(femaleUsers);
+
+
+console.timeEnd('tag');

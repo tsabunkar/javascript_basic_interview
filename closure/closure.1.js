@@ -14,9 +14,9 @@ function showName(firstName, lastName) {
 }
 console.log(showName("Sachin", "Tendulkar"));
 
-/* 
 
-function showName(firstName, lastName) {
+
+/* function showName(firstName, lastName) {
 
     return makeFullName();
 

@@ -16,7 +16,8 @@ function multiply(a, b, c) {
 function curryingMultiply(a) {
     return (b) => {
         return (c) => {
-            return a * b * c;
+            return multiply(a, b, c);
+            // return a * b * c;
         }
     }
 }

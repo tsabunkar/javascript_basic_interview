@@ -9,7 +9,7 @@ let booksResponses = [{
         author: 'Spark'
     },
     {
-        name: 'Digital fortress',
+        name: 'Digital ',
         genere: 'scifi',
         author: 'Dan brown'
     },

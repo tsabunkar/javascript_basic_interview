@@ -225,7 +225,7 @@ let myArray = [{
 
 // !Now if we want to only see eyeColor and age property from the above array -
 
-console.log(myArray);
+// console.log(myArray);
 
 // first argum is data and second argum is on property we want to filer at
 console.table(myArray, ['age', 'eyeColor']);

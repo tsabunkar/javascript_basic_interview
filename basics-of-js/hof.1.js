@@ -7,10 +7,11 @@ const sum = (n1, n2) => {
 // !_-------------------
 
 const makeSum = (n) => {
+    // console.log(n, p);
     return (p) => {
-        return n + p;
+        // return n + p;
 
-        // sum(n, p);
+        return sum(n, p);
     }
 };
 
@@ -22,14 +23,14 @@ console.log(result1(2));
 
 // *-------------------------
 
-const makeMoreSum = (foo) => {
+const makeMoreSum = (foo) => { // foo -> f [return square of a number]
     return (n1, n2) => {
         return sum(foo(n1), n2);
     }
 }
 
-const squareMe = makeMoreSum(x => {
+const result = makeMoreSum(x => {
     return x * x; //remove return
 });
 
-console.log(squareMe(2, 3));
+console.log(result(2, 3));

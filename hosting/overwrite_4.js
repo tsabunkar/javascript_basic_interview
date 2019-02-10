@@ -7,10 +7,12 @@ const CAR = {
 // Modify a property of CAR
 CAR.price = 20000;
 
+CAR.money = 1500;
+
 console.log(CAR);
 
-/* console.log('------Ex-2------');
-
+console.log('------Ex-2------');
+/* 
 const array = [1, 2, 3, 4, 5];
 
 array[1] = 10;

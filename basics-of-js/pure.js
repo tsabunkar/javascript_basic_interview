@@ -20,12 +20,12 @@ let booksResponse = [{
     },
 ]
 
-function modifiyBooks(booksResponse) {
-    return booksResponse.slice(0, 2);
+function modifiyBooks(array) {
+     array.slice(0, 2);
 }
 
 // console.log(modifiyBooks(booksResponse));
-modifiyBooks(booksResponse)
+ modifiyBooks(booksResponse)
 
 console.log('---------');
 

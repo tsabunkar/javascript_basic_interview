@@ -9,7 +9,7 @@ console.log(result);
 // !--------------------code with currying---------
 function myDiscount(price) {
     return function (discount) {
-        return price - discount;
+        return price + discount;
     }
 }
 
