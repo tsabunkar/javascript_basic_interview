@@ -1,0 +1,20 @@
+[{
+        "charId": 1,
+        "chairName": "Nilkamal",
+        "numberOfWheels": 4,
+        "isMovable": false
+    },
+    {
+        "charId": 1,
+        "chairName": "Nilkamal",
+        "numberOfWheels": 4,
+        "isMovable": false
+    },
+    {
+        "charId": 1,
+        "chairName": "Nilkamal",
+        "numberOfWheels": 4,
+        "isMovable": false
+    }
+
+]
