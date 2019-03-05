@@ -1,0 +1,27 @@
+1) True
+2) Undefined
+3) true
+4) false
+5) function
+6) 2
+7) 3, 1
+8) True
+9) false
+10) "f, o, o"
+11) ",,,"
+12) ['bin']
+13) true
+14) Undefined
+15) false
+16) NaN
+17) true
+18) 2
+19) false
+20) undefined
+21) false
+22) 10, undefined, 30
+23) 30, 30 50, 50
+24) undefined, fluffy, 12, Error, undefined, 12
+25) Error, Error
+
+

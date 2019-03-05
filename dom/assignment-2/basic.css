@@ -1,0 +1,12 @@
+.div-border {
+    border: double
+}
+
+#divId {
+    border: dotted;
+    background-color: aquamarine
+}
+
+div {
+    text-align: center;
+}
