@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Component</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="module" src="./app.js"></script>
+    <link rel="stylesheet" type="text/css" href="./hearts.css">
+</head>
+
+<body>
+
+    <h1>Start</h1>
+    <app-tejas name="Thank you for building Me"></app-tejas>
+    <div style="border: double">
+        I am your div <br>
+        I am your div <br>
+        I am your div <br>
+        I am your div <br>
+        I am your div <br>
+    </div>
+    <div class="hearts"></div>
+    <button id="myIID" type="button">Like</button>
+    <h1>end</h1>
+    <!--  <script>
+        let divElement = document.getElementById('myIID');
+        divElement.addEventListener("click",
+            function () {
+                var b = Math.floor((Math.random() * 100) + 1);
+                var d = ["flowOne", "flowTwo", "flowThree"];
+                var a = ["colOne", "colTwo", "colThree", "colFour", "colFive", "colSix"];
+                var c = (Math.random() * (1.6 - 1.2) + 1.2).toFixed(1);
+                $('<div class="heart part-' + b + " " + a[Math.floor((Math.random() * 6))] +
+                    '" style="font-size:' +
+                    Math.floor(Math.random() * (50 - 22) + 22) + 'px;"><i class="fa fa-heart"></i></div>').appendTo(
+                    ".hearts").css({
+                    animation: "" + d[Math.floor((Math.random() * 3))] + " " + c + "s linear"
+                });
+                $(".part-" + b).show();
+                setTimeout(function () {
+                    $(".part-" + b).remove()
+                }, c * 900)
+            });
+    </script> -->
+</body>
+
+</html>

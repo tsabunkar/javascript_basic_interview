@@ -1,7 +1,12 @@
 import { Person } from "./Person";
 import { MobileOperator } from "./MobileOperator";
+import yargs from "yargs";
 
 export class Main {
+  constructor() {
+    console.log(yargs().argv);
+  }
+
   person1: Person = new Person(1, "Tejas", 1);
   person2: Person = new Person(2, "Usha", 1);
   person3: Person = new Person(3, "Shailesh", 2);

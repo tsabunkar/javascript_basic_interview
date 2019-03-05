@@ -13,15 +13,17 @@ class SimpleGreeting extends LitElement {
         };
     }
 
-    /* constructor() {
+    constructor() {
         super();
         this.name = 'Hello Polymer';
-    } */
+    }
 
 
     render() {
-        console.log('I"m speaking from custom element');
-        return html `<button type="button">I am cutome Element  ${this.name} </button>`;
+        console.log('I"m speaking from custom element',this.name);
+        return html `
+        <button type="button">I am cutome Element  ${this.name} </button>
+        `;
 
     }
 }
