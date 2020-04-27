@@ -1,0 +1,44 @@
+[
+  {
+    "wire_color": "R",
+    "wire_type": "AB23",
+    "wire_number": "5807",
+    "wire_length": "0.75"
+  },
+  {
+    "wire_color": "",
+    "wire_type": "HG24",
+    "wire_number": "5807",
+    "wire_length": "1.5"
+  },
+  {
+    "wire_color": "B",
+    "wire_type": "HG24",
+    "wire_number": "5807",
+    "wire_length": "2.5"
+  },
+  {
+    "wire_color": "",
+    "wire_type": "HG24",
+    "wire_number": "8945",
+    "wire_length": "8.5"
+  },
+  {
+    "wire_color": "GR",
+    "wire_type": "HG24",
+    "wire_number": "5834",
+    "wire_length": "4.5"
+  },
+  {
+    "wire_color": "",
+    "wire_type": "HG24",
+    "wire_number": "5900",
+    "wire_length": "3.5"
+  },
+  {
+    "wire_color": "GR",
+    "wire_type": "ZU45",
+    "wire_number": "1546",
+    "wire_length": "0.5"
+  }
+]
