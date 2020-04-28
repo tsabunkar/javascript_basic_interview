@@ -1,10 +1,12 @@
 let records = require("./requirement.json");
 
+const HG24 = "HG24";
+
 console.log(records);
 console.log("-----------all wires------------");
 
 let wires = records.filter((element) => {
-  if (element.wire_type === "HG24") {
+  if (element["wire_type"] === HG24) {
     // all HG24 wires
     return element;
     // return { ...element, wire_length: 0.0 };
@@ -19,12 +21,13 @@ let uniqueWireNumber = {};
 
 wires.forEach((wire) => {
   if (
-    uniqueWireNumber.hasOwnProperty(wire.wire_number) ||
-    wire.wire_color !== ""
+    uniqueWireNumber.hasOwnProperty(wire["wire_number"]) ||
+    wire['wire_color'] !== ""
   ) {
-    uniqueWireNumber[wire.wire_number] = null;
+    uniqueWireNumber[wire["wire_number"]] = null;
   } else {
-    uniqueWireNumber[wire.wire_number] = wire;
+    // shielding wire and unique wire_number
+    uniqueWireNumber[wire["wire_number"]] = wire;
   }
 });
 
@@ -48,13 +51,13 @@ console.log(uniqueWireNumber);
 
 let resultWires = records.map((wire) => {
   if (
-    uniqueWireNumber.hasOwnProperty(wire.wire_number) &&
-    wire.wire_type === "HG24"
+    wire['wire_type'] === HG24 &&
+    uniqueWireNumber.hasOwnProperty(wire["wire_number"])
   ) {
-    if (uniqueWireNumber[wire.wire_number]) {
+    if (uniqueWireNumber[wire["wire_number"]]) {
       return wire;
     } else {
-      return { ...wire, wire_length: "-.-" };
+      return { ...wire, 'wire_length': "-.-" };
     }
   } else {
     return wire;

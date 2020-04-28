@@ -36,6 +36,11 @@
     "wire_length": "3.5"
   },
   {
+    "wire_type": "HG24",
+    "wire_number": "8719",
+    "wire_length": "2.15"
+  },
+  {
     "wire_color": "GR",
     "wire_type": "ZU45",
     "wire_number": "1546",
