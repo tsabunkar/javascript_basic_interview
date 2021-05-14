@@ -51,17 +51,11 @@
 
 7. Difference between stored procedure and function
 
-- Function :
-  - A function has a return type and returns a value
-  - You cannot use a function with DML queries, Only SELECT queries are allowed in functions
-  - A function does not allow output parameters
-  - You cannot manage transactions into a function
-  - You cannot call stored procedure from a function
-  - You can call a function using a select statement
-- Procedures
-  - A procedure does not have a return typem but it returns values using the OUT parameters
-  - You can use all the DML queries
-  - A procedure allows both input and output parameters
-  - you can manage transactions inside a function
-  - you can call a function from a stored procedure
-  - you cannot call a procedure using SELECT statement
+| Function                                                                                 | Procedures                                                                              |
+| :--------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- |
+| A function has a return type and returns a value                                         | A procedure does not have a return typem but it returns values using the OUT parameters |
+| You cannot use a function with DML queries, Only SELECT queries are allowed in functions | You can use all the DML queries                                                         |
+| A function does not allow output parameters                                              | A procedure allows both input and output parameters                                     |
+| You cannot manage transactions into a function                                           | you can manage transactions inside a function                                           |
+| You cannot call stored procedure from a function                                         | you can call a function from a stored procedure                                         |
+| You can call a function using a select statement                                         | you cannot call a procedure using SELECT statement                                      |
