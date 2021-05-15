@@ -9,5 +9,5 @@ Explain the concept of Tweening in CSS
 What are gradients in CSS?
 
 What is CSS flexbox? Name some of the properties of flexbox.
-  
- Differentiate between inline and block element.
+
+Differentiate between inline and block element.
